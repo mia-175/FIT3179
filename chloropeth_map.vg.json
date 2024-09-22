@@ -1,0 +1,34 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Human Development Index (HDI) by Country",
+    "width": 800,
+    "height": 400,
+    "projection": {"type": "equalEarth"},
+    "data": {
+      "url": "https://raw.githubusercontent.com/mia-175/FIT3179/refs/heads/main/ne_110m.json", 
+      "format": {"type": "topojson", "feature": "countries"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/HDI.csv" 
+          },
+          "key": "Country",
+          "fields": ["Human Development Index (HDI)"]
+        }
+      }
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "color": {
+        "field": "Human Development Index (HDI)",
+        "type": "quantitative"
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "Gross national income (GNI) per capita", "type": "quantitative"}
+      ]
+    }
+  }
