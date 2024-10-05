@@ -1,0 +1,118 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "title": "HDI and GNI per capita",
+    "data": {
+      "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/HDI.csv"
+    },
+    "params": [
+      {
+        "name": "Continent_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Australia"
+          ],
+          "labels": [
+            "Show All",
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Australia"
+          ],
+          "name": "Continent Selection: "
+        }
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Life expectancy at birth",
+        "type": "quantitative",
+        "scale": { "zero": false }
+      },
+      "y": {
+        "field": "HDI",
+        "type": "quantitative",
+        "scale": { "zero": false }
+      }
+    },
+    "layer": [
+      {
+        "mark": "circle",
+        "encoding": {
+          "color": {
+            "field": "Continent",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "North America",
+                "South America",
+                "Europe",
+                "Africa",
+                "Asia",
+                "Australia"
+              ],
+              "range": [
+                "#e41a1c",
+                "#984ea3",
+                "#ff7f00",
+                "#a6cee3",
+                "#377eb8",
+                "#a65628"
+              ]
+            }
+          },
+          "opacity": {
+            "condition": {
+              "test": "datum['Continent'] == Continent_selection || Continent_selection == null",
+              "value": 1
+            },
+            "value": 0.2
+          },
+          "tooltip": [
+            { "field": "Country", "type": "nominal" }
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "baseline": "middle",
+          "dx": -12,
+          "fontSize": 11.5,
+          "fontStyle": "italic"
+        },
+        "encoding": {
+          "text": {
+            "condition": {
+              "test": "datum['Country'] == 'Australia'",
+              "value": "Australia"
+            },
+            "value": ""  
+          },
+          "color": { "value": "black" },
+          "opacity": {
+            "condition": {
+              "test": "datum['Country'] == 'Australia'",
+              "value": 1
+            },
+            "value": 0 
+          },
+          "tooltip": [
+            { "field": "Country", "type": "nominal" }
+          ]
+        }
+      }
+    ]
+  }
+  
