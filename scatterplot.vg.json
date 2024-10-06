@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 700,
   "height": 525,
-  "title": "HDI and GNI per capita",
+  "title": "HDI vs. Life Expectancy",
   "data": {
     "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/HDI.csv"
   },
