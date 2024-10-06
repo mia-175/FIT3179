@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Human Development Index (HDI) by Country (2022)",
-    "width": 800,
-    "height": 400,
+    "title": "HDI by Country (2022)",
+    "width": 700,
+    "height": 300,
     "projection": {"type": "equalEarth"},
     "layer": [
       {
