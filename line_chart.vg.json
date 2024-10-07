@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bump chart showing life expectancy by country.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/Life%20expectancy.csv",  
+      "format": {"type": "csv"}
+    },
+    "mark": {"type": "line", "point": true},
+    "encoding": {
+      "x": {
+        "field": "Country",
+        "type": "nominal",
+        "sort": {
+          "field": "Life expectancy",
+          "order": "descending"
+        },
+        "axis": {"labelAngle": 270}
+      },
+      "y": {
+        "field": "Life expectancy",
+        "type": "quantitative"
+      },
+        "color": {
+            "field": "Life expectancy",
+            "type": "quantitative"
+        },
+      "order": {"field": "Life expectancy", "type": "quantitative"}
+    }
+  }
+  

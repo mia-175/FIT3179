@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/Life%20expectancy.csv",  
+      "format": {"type": "csv"}
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Country",
+        "type": "nominal",
+        "axis": {"labelAngle": 0},
+        "sort": {
+          "field": "Life expectancy",
+          "order": "descending"
+        }
+      },
+      "y": {
+        "field": "Life expectancy",
+        "type": "quantitative"
+      }
+    }
+  }
+  
