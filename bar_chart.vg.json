@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 250,
-  "height": 250,
+  "width": 245,
+  "height": 245,
   "title": {
     "text": "Education Dimension",
     "fontSize": 20 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 300,
-  "height": 300,
+  "width": 270,
+  "height": 270,
   "title": {
     "text": "Income Dimension",
     "fontSize": 20 
