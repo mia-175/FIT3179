@@ -1,21 +1,41 @@
-Country,Life expectancy
-Japan,84.8
-Liechtenstein,84.7
-"Hong Kong, China (SAR)",84.3
-Switzerland,84.3
-Singapore,84.1
-Italy,84.1
-"Korea, South",84
-Spain,83.9
-Malta,83.7
-Australia,83.6
-Guinea,59
-Cote d'Ivoire,58.9
-Namibia,58.1
-Eswatini,56.4
-Somalia,56.1
-South Sudan,55.6
-Central African Republic,54.5
-Nigeria,53.6
-Lesotho,53
-Chad,53
+Country,Life expectancy,Gender
+Hong Kong,88.3257,Female
+Hong Kong,82.6613,Male
+Japan,87.7313,Female
+Japan,81.8018,Male
+"Korea, South",86.7603,Female
+"Korea, South",80.3864,Male
+Malta,86.1085,Female
+Malta,81.4414,Male
+Switzerland,85.8959,Female
+Switzerland,81.9952,Male
+Australia,85.8396,Female
+Australia,83.1718,Male
+Spain,85.7735,Female
+Spain,80.2091,Male
+Liechtenstein,85.35,Female
+Liechtenstein,81.101,Male
+Italy,85.0955,Female
+Italy,80.5189,Male
+Singapore,84.9268,Female
+Singapore,80.6357,Male
+Namibia,62.9849,Female
+Namibia,55.7206,Male
+Eswatini,61.2485,Female
+Eswatini,53.366,Male
+Guinea,60.0985,Female
+Guinea,57.595,Male
+Cote d'Ivoire,59.9409,Female
+Cote d'Ivoire,57.4001,Male
+Somalia,57.414,Female
+Somalia,53.2459,Male
+South Sudan,56.4723,Female
+South Sudan,53.4286,Male
+Central African Republic,56.3035,Female
+Central African Republic,51.6455,Male
+Lesotho,55.9266,Female
+Lesotho,50.3736,Male
+Chad,54.2828,Female
+Chad,50.8449,Male
+Nigeria,53.0701,Female
+Nigeria,52.2846,Male
