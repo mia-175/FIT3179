@@ -1,79 +1,89 @@
 {
-    "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "width": 500,
-    "height": 400,
-    "padding": 5,
-  
-    "data": [
-      {
-        "name": "source",
-        "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/GNI.csv",  
-        "format": {"type": "csv"}
-      },
-      {
-        "name": "tree",
-        "source": "source",
-        "transform": [
-          {
-            "type": "nest",
-            "keys": ["Country"] 
-          },
-          {
-            "type": "treemap",
-            "field": "GNI per capita", 
-            "sort": {"field": "GNI per capita", "order": "descending"},
-            "round": true,
-            "size": [{"signal": "width"}, {"signal": "height"}],
-            "paddingInner": 2
-          }
-        ]
-      }
-    ],
-  
-    "marks": [
-      {
-        "type": "rect",
-        "from": {"data": "tree"},
-        "encode": {
-          "enter": {
-            "x": {"field": "x0"},
-            "y": {"field": "y0"},
-            "x2": {"field": "x1"},
-            "y2": {"field": "y1"},
-            "fill": {"scale": "color", "field": "Country"} 
-          },
-          "update": {
-            "fillOpacity": {"value": 1}
-          },
-          "hover": {
-            "fillOpacity": {"value": 0.8}
-          }
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 300,
+  "height": 300,
+  "title": {
+    "text": "Income Dimension",
+    "fontSize": 20 
+  },
+  "data": [
+    {
+      "name": "source",
+      "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/GNI.csv",  
+      "format": {"type": "csv"}
+    },
+    {
+      "name": "tree",
+      "source": "source",
+      "transform": [
+        {
+          "type": "nest",
+          "keys": ["Country"] 
+        },
+        {
+          "type": "treemap",
+          "field": "GNI per capita", 
+          "sort": {"field": "GNI per capita", "order": "descending"},
+          "round": true,
+          "size": [{"signal": "width"}, {"signal": "height"}],
+          "paddingInner": 2
         }
-      },
-      {
-        "type": "text",
-        "from": {"data": "tree"},
-        "encode": {
-          "enter": {
-            "x": {"signal": "(datum.x0 + datum.x1) / 2"},
-            "y": {"signal": "(datum.y0 + datum.y1) / 2"},
-            "align": {"value": "center"},
-            "baseline": {"value": "middle"},
-            "text": {"field": "Country"},
-            "fill": {"value": "black"}
-          }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": {"data": "tree", "field": "GNI per capita"},
+      "range": {"scheme": "yellowgreenblue"}
+    }
+  ],
+
+  "legends": [
+    {
+      "fill": "color",
+      "title": "GNI per capita",
+      "orient": "right"
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"},
+          "fill": {"scale": "color", "field": "GNI per capita"} 
+        },
+        "update": {
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.8}
         }
       }
-    ],
-  
-    "scales": [
-      {
-        "name": "color",
-        "type": "ordinal",
-        "domain": {"data": "tree", "field": "Country"}, 
-        "range": {"scheme": "category20"}
+    },
+    {
+      "type": "text",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {
+          "x": {"signal": "(datum.x0 + datum.x1) / 2"},
+          "y": {"signal": "(datum.y0 + datum.y1) / 2"},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "text": {
+            "signal": "datum.Country === 'Liechtenstein' | datum.Country === 'Qatar' | datum.Country === 'Qatar' | datum.Country === 'Singapore' | datum.Country === 'Ireland' | datum.Country === 'Luxembourg' | datum.Country === 'Emirates' | datum.Country === 'Switzerland' | datum.Country === 'Norway' | datum.Country === 'United States of America' | datum.Country === 'Hong Kong' ? datum.Country : ''"
+          },
+          "fill": {"value": "white"}
+        }
       }
-    ]
-  }
-  
-  
+    }
+  ]
+}
