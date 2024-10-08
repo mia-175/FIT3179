@@ -1,63 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human Development Index 2022</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <!-- Import pure.css -->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
     integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <!-- Import Vega & Vega-Lite -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
 
-    <!-- CSS file -->
-    <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
 </head>
 
 <body>
 
-    <div class="page">
+  <div class="page">
 
-         <!-- pure grid group -->
-        <div class="pure-g">
-            <div class="pure-u-1-1">
-            <h1>FIT3179 Homework Week 10</h1>
-            </div>
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1>Human Development Index (HDI) 2022</h1>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+        <div class="pure-u-1-3">
+          <div class="description description-left">
+            <p>The Human Development Index (HDI) is a summary measure
+                of three key dimensions of human development: <b>standard of living</b> (income), <br><b>education</b> and <b>health</b>. <br><br>These are measured by gross national income (GNI) per capita, mean years of schooling, and life expectancy at birth (respectively). <br><br>This visualisation aims to explore the key dimensions of human development of countries around the world; in particular the differences between affluent nations and those with limited economic resources.</p>
+          </div>
         </div>
-        <!-- end pure grid group -->
+        <div class="pure-u-2-3">
+            <div id="choropleth_map"></div>
+        </div>
+      </div>
+      <!-- end pure grid group -->
 
-        <div id="choropleth_map"></div>
+    <!-- Choropleth Map -->
+    <div id="choropleth_map"></div>
 
-        <div id="scatterplot"></div>
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-3">
+            <div id="treemap"></div>
+      </div>
+      <div class="pure-u-1-3">
+        <div id="bar_chart"></div>
+      </div>
+      <div class="pure-u-1-3">
+        <div id="line_chart"></div>
+      </div>
 
     </div>
+    <!-- end pure grid group -->
 
-    <script type="text/javascript">
-        // First graph: Choropleth map
-        var spec2 = "choropleth_map.vg.json";
-        vegaEmbed('#choropleth_map', spec2, { "actions": false })
-            .then(function(result) {
-            })
-            .catch(console.error);
+  </div> <!-- end page -->
 
-        // Second graph: Scatter plot
-        var spec3 = "scatterplot.vg.json";
-        vegaEmbed('#scatterplot', spec3)
-            .then(function(result) {
-            })
-            .catch(console.error);
-    </script>
+  <script type="text/javascript">
+
+    // Choropleth map
+    var spec1 = "choropleth_map.vg2.json";
+    vegaEmbed('#choropleth_map', spec1, { "actions": false })
+        .then(function(result) {})
+        .catch(console.error);
+
+    // Scatter plot
+    var spec2 = "scatterplot.vg.json";
+    vegaEmbed('#scatterplot', spec2)
+        .then(function(result) {})
+        .catch(console.error);
+
+    // Treemap
+    var spec3 = "treemap.vg.json";
+    vegaEmbed('#treemap', spec3, { "actions": false })
+        .then(function(result) {})
+        .catch(console.error);
+
+    // Bar chart
+    var spec4 = "bar_chart.vg.json";
+    vegaEmbed('#bar_chart', spec4)
+        .then(function(result) {})
+        .catch(console.error);
+
+    // Line chart
+    var spec5 = "line_chart.vg.json";
+    vegaEmbed('#line_chart', spec5)
+        .then(function(result) {})
+        .catch(console.error);
+
+  </script>
 </body>
 
 </html>
