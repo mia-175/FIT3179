@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+            "url": "https://raw.githubusercontent.com/mia-175/FIT3179/refs/heads/main/Education.csv",
+            "format": {"type": "csv"}
+          },
+    "mark": "point",
+    "encoding": {
+      "x": {"field": "Expected years of schooling", "type": "quantitative"},
+      "y": {"field": "Mean years of schooling", "type": "quantitative"},
+      "color": {"field": "Country", "type": "nominal"},
+      "size": {
+      "field": "HDI rank",
+      "type": "quantitative",
+      "title": "HDI Rank",
+      "scale": {"range": [10, 100], "reverse": true} 
+    },
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Expected years of schooling", "type": "quantitative"},
+        {"field": "Mean years of schooling", "type": "quantitative"},
+        {"field": "HDI rank", "type": "quantitative"}
+        ],
+      "href": {"field": "url", "type": "nominal"}
+    }
+  }
