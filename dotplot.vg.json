@@ -4,7 +4,7 @@
   "height": 300,
   "title": {
     "text": "Health Dimension",
-    "fontSize": 20 
+    "fontSize": 18
   },
   "data": {
     "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/Life expectancy.csv"

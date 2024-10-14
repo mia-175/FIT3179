@@ -2,9 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Education Dimension",
-    "fontSize": 20 
+    "fontSize": 18 
   },
-  "width": 280,
   "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/Education.csv"

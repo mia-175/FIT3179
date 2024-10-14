@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "HDI by Country",
-    "fontSize": 20 
+    "fontSize": 18
   },
   "width": 700,
   "height": 350,
