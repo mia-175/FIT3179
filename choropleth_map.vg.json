@@ -52,7 +52,12 @@
         "color": {
           "field": "HDI",
           "type": "quantitative",
-          "scale": {"type": "linear", "scheme": "greenblue"}
+          "scale": {"type": "linear", "scheme": "greenblue"},
+          "legend": {
+            "orient": "right",
+            "direction": "vertical",
+            "gradientLength": 300
+          }
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},

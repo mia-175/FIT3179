@@ -6,7 +6,7 @@ h1 {
     text-align: center;
     font-family: 'Playfair Display';
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 body {
@@ -39,9 +39,10 @@ h1 {
 }
 
 .pure-g {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .small-font {
     font-size: 14px;
+    margin-top: 50px;
 }
