@@ -31,7 +31,7 @@ Cabo Verde,Africa,0.661,74.7,11.5,6.1,"7,601",-4
 Cambodia,Asia,0.6,69.9,11.6,5.2,"4,291",0
 Cameroon,Africa,0.587,61,13.4,6.5,"3,681",3
 Canada,North America,0.935,82.8,16,13.9,"48,444",8
-Central African Republic,Africa,0.387,54.5,7.3,4,869,0
+Central African Rep.,Africa,0.387,54.5,7.3,4,869,0
 Chad,Africa,0.394,53,8.2,2.3,"1,389",-6
 Chile,South America,0.86,79.5,16.8,11.1,"24,431",15
 China,Asia,0.788,78.6,15.2,8.1,"18,025",0
@@ -200,3 +200,5 @@ New Caledonia,,0,,,,,
 North Korea,,0,,,,,
 Puerto Rico,,0,,,,,
 Somaliland,,0,,,,,
+Antarctica,,0,,,,,
+Antarctic Lands,,0,,,,,
