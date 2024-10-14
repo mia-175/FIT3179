@@ -17,10 +17,6 @@
     {
       "calculate": "datum.Type === 'Mean years of schooling' ? -datum.Years : datum.Years",
       "as": "AdjustedYears"
-    },
-    {
-      "calculate": "datum.Years",
-      "as": "Years of schooling"
     }
   ],
   "mark": "bar",
@@ -39,7 +35,12 @@
       "field": "AdjustedYears",
       "type": "quantitative",
       "title": "Years of Schooling",
-      "axis": {"format": "s"}
+      "scale": {
+        "domain": [-15, 15] 
+      },
+      "axis": {
+        "labelExpr": "abs(datum.value)"
+      }
     },
     "color": {
       "field": "Type",
@@ -53,7 +54,7 @@
     },
     "tooltip": [
       {"field": "Country", "type": "nominal", "title": "Country"},
-      {"field": "Years of schooling", "type": "nominal", "title": null}
+      {"field": "Years", "type": "quantitative", "title": "Years of Schooling"}
     ]
   },
   "config": {
