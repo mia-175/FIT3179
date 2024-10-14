@@ -14,7 +14,7 @@
         "input": "select",
         "options": [null, "Very High", "High", "Medium", "Low"],
         "labels": ["Show All", "Very High", "High", "Medium", "Low"],
-        "name": "HDI Category Selection: "
+        "name": "Human Development Category: "
       }
     }
   ],
