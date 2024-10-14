@@ -83,7 +83,10 @@
         "domain": ["Female", "Male"],
         "range": ["#e6959c", "#911a24"]  
       },
-      "title": "Gender"
+      "title": "Gender",
+      "legend": {
+        "orient": "bottom"
+      }
     }
   },
   "layer": [

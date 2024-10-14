@@ -45,7 +45,10 @@
     {
       "fill": "color",
       "title": "GNI per capita",
-      "orient": "right"
+      "orient": "bottom",
+      "direction": "horizontal",
+      "gradientLength": 270,
+      "reverse": true
     }
   ],
 
@@ -59,7 +62,10 @@
           "y": {"field": "y0"},
           "x2": {"field": "x1"},
           "y2": {"field": "y1"},
-          "fill": {"scale": "color", "field": "GNI per capita"} 
+          "fill": {"scale": "color", "field": "GNI per capita"},
+          "tooltip": {
+            "signal": "datum.Country + ': ' + datum['GNI per capita']"
+          }
         },
         "update": {
           "fillOpacity": {"value": 1}

@@ -23,14 +23,6 @@
               "key": "Country",
               "fields": ["HDI"]
             }
-          },
-          {
-            "calculate": "datum.HDI === null ? 'null' : datum.HDI",
-            "as": "HDI Tooltip"
-          },
-          {
-            "calculate": "datum.HDI === null ? 0 : datum.HDI",
-            "as": "HDI"
           }
         ],
         "mark": {"type": "geoshape"},
@@ -46,11 +38,6 @@
               "field": "properties.NAME",
               "type": "nominal",
               "title": "Country"
-            },
-            {
-              "field": "HDI Tooltip",
-              "type": "nominal",
-              "title": "HDI"
             }
           ]
         }

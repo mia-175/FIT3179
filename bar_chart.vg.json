@@ -5,7 +5,7 @@
     "fontSize": 20 
   },
   "width": 245,
-  "height": 150,
+  "height": 100,
   "data": {
     "values": [
       {"Country": "Germany", "Mean years of schooling": 14.3, "Expected years of schooling": 17.3},
@@ -62,7 +62,10 @@
           "scale": {
             "scheme": "yellowgreenblue"
           },
-          "legend": {"title": "Type"}
+          "legend": {
+            "title": "Type",
+            "orient": "bottom"
+          }
         }
       }
     }
