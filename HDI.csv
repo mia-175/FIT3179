@@ -1,207 +1,207 @@
-Country,Continent,HDI,Life expectancy at birth,Expected years of schooling,Mean years of schooling,Gross national income (GNI) per capita,GNI per capita rank minus HDI rank
-Afghanistan,Asia,0.462,62.9,10.7,2.5,"1,335",2
-Albania,Europe,0.789,76.8,14.5,10.1,"15,293",7
-Algeria,Africa,0.745,77.1,15.5,7,"10,978",13
-Andorra,Europe,0.884,83.6,12.8,11.6,"54,233",-15
-Angola,Africa,0.591,61.9,12.2,5.8,"5,328",-11
-Antigua and Barbuda,North America,0.826,79.2,15.5,10.5,"18,784",18
-Argentina,South America,0.849,76.1,19,11.1,"22,048",17
-Armenia,Asia,0.786,73.4,14.4,11.3,"15,388",4
-Australia,Australia,0.946,83.6,21.1,12.7,"49,257",14
-Austria,Europe,0.926,82.4,16.4,12.3,"56,530",-5
-Azerbaijan,Asia,0.76,73.5,12.7,10.6,"15,018",-7
-Bahamas,North America,0.82,74.4,11.9,12.7,"32,535",-9
-Bahrain,Asia,0.888,79.2,16.3,11,"48,731",-9
-Bangladesh,Asia,0.67,73.7,11.9,7.4,"6,511",2
-Barbados,North America,0.809,77.7,16.5,9.9,"14,810",24
-Belarus,Europe,0.801,73.2,14,12.2,"18,425",5
-Belgium,Europe,0.942,82.3,18.9,12.5,"53,644",9
-Belize,North America,0.7,71,12.4,8.8,"9,242",-3
-Benin,Africa,0.504,60,10.3,3.1,"3,406",-14
-Bhutan,Asia,0.681,72.2,13.1,5.8,"10,625",-15
-Bolivia,South America,0.698,64.9,15,9.8,"7,988",3
-Bosnia and Herzegovina,Europe,0.779,75.3,13.3,10.5,"16,571",-3
-Botswana,Africa,0.708,65.9,11.4,10.4,"14,842",-29
-Brazil,South America,0.76,73.4,15.6,8.3,"14,616",0
-Brunei,Asia,0.823,74.6,13.7,9.2,"59,246",-43
-Bulgaria,Europe,0.799,71.5,13.9,11.4,"25,921",-12
-Burkina Faso,Africa,0.438,59.8,8.1,2.3,"2,037",-9
-Burundi,Africa,0.42,62,10,3.3,712,5
-Cabo Verde,Africa,0.661,74.7,11.5,6.1,"7,601",-4
-Cambodia,Asia,0.6,69.9,11.6,5.2,"4,291",0
-Cameroon,Africa,0.587,61,13.4,6.5,"3,681",3
-Canada,North America,0.935,82.8,16,13.9,"48,444",8
-Central African Rep.,Africa,0.387,54.5,7.3,4,869,0
-Chad,Africa,0.394,53,8.2,2.3,"1,389",-6
-Chile,South America,0.86,79.5,16.8,11.1,"24,431",15
-China,Asia,0.788,78.6,15.2,8.1,"18,025",0
-Colombia,South America,0.758,73.7,14.4,8.9,"15,014",-8
-Comoros,Africa,0.586,63.7,13,6.2,"3,261",8
-Dem. Rep. Congo,Africa,0.593,63.1,12.4,8.3,"2,903",14
-Congo,Africa,0.481,59.7,9.6,7.2,"1,080",9
-Costa Rica,North America,0.806,77.3,16.1,8.8,"20,248",2
-Côte d'Ivoire,Africa,0.534,58.9,10.1,4.2,"5,376",-30
-Croatia,Europe,0.878,79.2,15.6,12.3,"34,324",5
-Cuba,North America,0.764,78.2,14.5,10.5,"7,953",40
-Cyprus,Asia,0.907,81.9,16.2,12.4,"40,137",7
-Czechia,Europe,0.895,78.1,16.3,12.9,"39,945",6
-Denmark,Europe,0.952,81.9,18.8,13,"62,019",6
-Djibouti,Africa,0.515,62.9,8,3.9,"4,875",-29
-Dominica,North America,0.74,73,13.6,9.2,"12,468",-1
-Dominican Rep.,North America,0.766,74.2,13.6,9.2,"18,653",-9
-Ecuador,South America,0.765,77.9,14.9,9,"10,693",25
-Egypt,Africa,0.728,70.2,12.9,9.8,"12,361",-8
-El Salvador,North America,0.674,71.5,11.9,7.2,"8,886",-7
-Eq. Guinea,Africa,0.65,61.2,12.1,8.3,"10,663",-24
-Eritrea,Africa,0.493,66.6,7.3,5.1,"1,957",2
-Estonia,Europe,0.899,79.2,15.9,13.5,"37,152",9
-eSwatini,Africa,0.61,56.4,14.9,5.7,"8,392",-21
-Ethiopia,Africa,0.492,65.6,9.9,2.4,"2,369",-8
-Fiji,Australia,0.729,68.3,13.8,10.4,"11,234",0
-Finland,Europe,0.942,82.4,19.2,12.9,"49,522",11
-France,Europe,0.91,83.2,16,11.7,"47,379",-1
-Gabon,Africa,0.693,65.7,12.4,9.6,"11,194",-18
-Gambia,Africa,0.495,62.9,9,4.5,"2,090",-1
-Georgia,Asia,0.814,71.6,16.7,12.7,"15,952",19
-Germany,Europe,0.95,81,17.3,14.3,"55,340",11
-Ghana,Africa,0.602,63.9,11.6,6.4,"5,380",-10
-Greece,Europe,0.893,80.6,20,11.4,"31,382",20
-Grenada,North America,0.793,75.3,16.6,9.9,"13,593",18
-Guatemala,North America,0.629,68.7,10.8,5.7,"8,996",-17
-Guinea,Africa,0.471,59,10.2,2.4,"2,404",-14
-Guinea-Bissau,Africa,0.483,59.9,10.5,3.7,"1,880",-1
-Guyana,South America,0.742,66,13,8.6,"35,783",-54
-Haiti,North America,0.552,63.7,11.1,5.6,"2,802",6
-Honduras,North America,0.624,70.7,10,7.3,"5,272",2
-"Hong Kong, China (SAR)",Asia,0.956,84.3,17.8,12.3,"62,486",6
-Hungary,Europe,0.851,75,15.1,12.2,"34,196",-2
-Iceland,Europe,0.959,82.8,19.1,13.8,"54,688",16
-India,Asia,0.644,67.7,12.6,6.6,"6,951",-6
-Indonesia,Asia,0.713,68.3,14,8.6,"12,046",-12
-Iran,Asia,0.78,74.6,14.1,10.7,"14,770",10
-Iraq,Asia,0.673,71.3,12.2,6.8,"9,092",-11
-Ireland,Europe,0.95,82.7,19.1,11.7,"87,468",-3
-Israel,Asia,0.915,82.6,15,13.4,"43,588",9
-Italy,Europe,0.906,84.1,16.7,10.7,"44,284",1
-Jamaica,North America,0.706,70.6,12.5,9.2,"9,695",-2
-Japan,Asia,0.92,84.8,15.5,12.7,"43,644",9
-Jordan,Asia,0.736,74.2,12.6,10.4,"9,295",15
-Kazakhstan,Asia,0.802,69.5,14.8,12.4,"22,587",-6
-Kenya,Africa,0.601,62.1,11.4,7.7,"4,808",-3
-Kiribati,Australia,0.628,67.7,11.8,9.1,"3,440",21
-South Korea,Asia,0.929,84,16.5,12.6,"46,026",10
-Kuwait,Asia,0.847,80.3,15.7,7.4,"56,729",-33
-Kyrgyzstan,Asia,0.701,70.5,13,12,"4,782",28
-Laos,Asia,0.62,69,10.2,5.9,"7,745",-13
-Latvia,Europe,0.879,75.9,16.6,13.3,"32,083",13
-Lebanon,Asia,0.723,74.4,12.1,8.6,"12,313",-11
-Lesotho,Africa,0.521,53,11.1,7.5,"2,709",-3
-Liberia,Africa,0.487,61.1,10.5,5.3,"1,330",8
-Libya,Africa,0.746,72.2,14,7.8,"19,752",-25
-Liechtenstein,Europe,0.942,84.7,15.5,12.4,"146,673",-11
-Lithuania,Europe,0.879,74.3,16.4,13.5,"38,131",2
-Luxembourg,Europe,0.927,82.6,14.2,13,"78,554",-15
-Madagascar,Africa,0.487,65.2,9.2,4.6,"1,464",4
-Malawi,Africa,0.508,62.9,11.5,5.2,"1,432",10
-Malaysia,Asia,0.807,76.3,12.9,10.7,"27,295",-7
-Maldives,Asia,0.762,80.8,12.2,7.8,"18,847",-16
-Mali,Africa,0.41,59.4,7,1.6,"2,044",-13
-Malta,Europe,0.915,83.7,15.9,12.2,"44,464",5
-Marshall Islands,Australia,0.731,65.1,16.4,12.8,"6,855",28
-Mauritania,Africa,0.54,64.7,8.1,4.8,"5,344",-26
-Mauritius,Africa,0.796,74,14.6,10,"23,252",-12
-Mexico,North America,0.781,74.8,14.5,9.2,"19,138",-7
-Micronesia,Australia,0.634,70.9,12.6,7.3,"3,709",18
-Moldova,Europe,0.763,68.6,14.9,11.8,"12,964",8
-Mongolia,Asia,0.741,72.7,14.5,9.4,"10,351",15
-Montenegro,Europe,0.844,76.8,15.1,12.6,"22,513",12
-Morocco,Africa,0.698,75,14.6,6.1,"7,955",4
-Mozambique,Africa,0.461,59.6,10.7,3.9,"1,219",4
-Myanmar,Asia,0.608,67.3,12.1,6.5,"4,038",6
-Namibia,Africa,0.61,58.1,11.8,7.2,"9,200",-26
-Nauru,Australia,0.696,64,12.6,9.2,"14,939",-38
-Nepal,Asia,0.601,70.5,12.6,4.5,"4,026",5
-Netherlands,Europe,0.946,82.5,18.6,12.6,"57,278",4
-New Zealand,Australia,0.939,83,19.7,12.9,"43,665",16
-Nicaragua,North America,0.669,74.6,12.6,7.3,"5,427",4
-Niger,Africa,0.394,62.1,7.2,1.3,"1,283",-3
-Nigeria,Africa,0.548,53.6,10.5,7.6,"4,755",-15
-North Macedonia,Europe,0.765,73.9,13,10.2,"16,396",-5
-Norway,Europe,0.966,83.4,18.6,13.1,"69,190",6
-Oman,Asia,0.819,73.9,13,11.9,"32,967",-13
-Pakistan,Asia,0.54,66.4,7.9,4.4,"5,374",-27
-Palau,Australia,0.797,65.4,17.2,13,"19,344",-2
-Palestine,Asia,0.716,73.4,13.2,9.9,"6,936",18
-Panama,North America,0.82,76.8,13.2,10.7,"32,029",-6
-Papua New Guinea,Australia,0.568,66,11.1,4.9,"3,710",-2
-Paraguay,South America,0.731,70.5,13.9,8.9,"13,161",-9
-Peru,South America,0.762,73.4,14.8,10,"11,916",14
-Philippines,Asia,0.71,72.2,12.8,9,"9,059",5
-Poland,Europe,0.881,77,15.9,13.2,"35,151",7
-Portugal,Europe,0.874,82.2,16.8,9.6,"35,315",0
-Qatar,Asia,0.875,81.6,13.3,10.1,"95,944",-38
-Romania,Europe,0.827,74.1,14.5,11.4,"31,641",-1
-Russia,Europe,0.821,70.1,15.7,12.4,"26,992",1
-Rwanda,Africa,0.548,67.1,11.4,4.9,"2,317",8
-Saint Kitts and Nevis,North America,0.838,72,18.4,10.8,"28,442",3
-Saint Lucia,North America,0.725,71.3,12.7,8.6,"14,778",-21
-Saint Vincent and the Grenadines,North America,0.772,69,16.3,11,"14,049",9
-Samoa,Australia,0.702,72.6,12.4,11.4,"4,970",25
-San Marino,Europe,0.867,83.4,12.4,10.5,"57,687",-30
-Sao Tome and Principe,Africa,0.613,68.8,12.7,5.9,"4,054",8
-Saudi Arabia,Asia,0.875,77.9,15.2,11.3,"50,620",-18
-Senegal,Africa,0.517,67.9,9.1,2.9,"3,464",-12
-Serbia,Europe,0.805,74.1,14.5,11.5,"19,494",3
-Seychelles,Africa,0.802,71.7,13.9,11.2,"28,386",-12
-Sierra Leone,Africa,0.458,60.4,9,3.5,"1,613",-4
-Singapore,Asia,0.949,84.1,16.9,11.9,"88,761",-6
-Slovakia,Europe,0.855,75.3,14.7,13,"32,171",4
-Slovenia,Europe,0.926,82.1,17.4,12.9,"41,587",13
-Solomon Islands,Australia,0.562,70.7,10.3,5.9,"2,273",14
-Somalia,Africa,0.38,56.1,7.6,1.9,"1,072",-3
-South Africa,Africa,0.717,61.5,14.3,11.6,"13,186",-18
-S. Sudan,Africa,0.381,55.6,5.6,5.7,691,1
-Spain,Europe,0.911,83.9,17.8,10.6,"40,043",10
-Sri Lanka,Asia,0.78,76.6,13.6,11.2,"11,899",24
-Sudan,Africa,0.516,65.6,8.5,3.9,"3,515",-14
-Suriname,South America,0.69,70.3,11,8.4,"12,310",-25
-Sweden,Europe,0.952,83.5,19,12.7,"56,996",10
-Switzerland,Europe,0.967,84.3,16.6,13.9,"69,433",6
-Syria,Asia,0.557,72.3,7.4,5.7,"3,594",-2
-Tajikistan,Asia,0.679,71.3,10.9,11.3,"4,807",18
-Tanzania,Africa,0.532,66.8,8.6,5.6,"2,578",-1
-Thailand,Asia,0.803,79.7,15.6,8.8,"16,887",10
-Timor-Leste,Asia,0.566,69.1,13.2,6,"1,629",24
-Togo,Africa,0.547,61.6,13,5.6,"2,214",9
-Tonga,Australia,0.739,71.3,16.3,10.9,"6,360",34
-Trinidad and Tobago,North America,0.814,74.7,14.1,11.7,"22,473",3
-Tunisia,Africa,0.732,74.3,14.6,8,"10,297",11
-Turkey,Asia,0.855,78.5,19.7,8.8,"32,834",2
-Turkmenistan,Asia,0.744,69.4,13.2,11.1,"12,860",1
-Tuvalu,Australia,0.653,64.9,12.1,10.6,"4,754",15
-Uganda,Africa,0.55,63.6,11.5,6.2,"2,241",12
-Ukraine,Europe,0.734,68.6,13.3,11.1,"11,416",3
-United Arab Emirates,Asia,0.937,79.2,17.2,12.8,"74,104",-11
-United Kingdom,Europe,0.94,82.2,17.6,13.4,"46,624",13
-United States of America,North America,0.927,78.2,16.4,13.6,"65,565",-11
-Uruguay,South America,0.83,78,17.4,9.1,"22,207",12
-Uzbekistan,Asia,0.727,71.7,12,11.9,"8,056",16
-Vanuatu,Australia,0.614,70.5,11.8,7.2,"3,244",21
-Venezuela,South America,0.699,71.1,13.5,9.6,"6,184",14
-Vietnam,Asia,0.726,74.6,13.1,8.5,"10,814",0
-Yemen,Asia,0.424,63.7,7.9,2.8,"1,106",2
-Zambia,Africa,0.569,61.8,11,7.3,"3,157",9
-Zimbabwe,Africa,0.55,59.4,11,8.8,"2,079",15
-Falkland Is.,,0,,,,,
-Fr. S. Antarctic Lands,,0,,,,,
-Greenland,,0,,,,,
-Kosovo,,0,,,,,
-New Caledonia,,0,,,,,
-North Korea,,0,,,,,
-Puerto Rico,,0,,,,,
-Somaliland,,0,,,,,
-Antarctica,,0,,,,,
-Antarctic Lands,,0,,,,,
-Côte d'Ivoire,,0,,,,,
-Republic of Cote D'Ivoire,,0,,,,,
-Cote D'ivoire,,0,,,,,
+Country,Continent,hdicode,region,HDI,Life expectancy at birth,Expected years of schooling,Mean years of schooling,Gross national income (GNI) per capita,GNI per capita rank minus HDI rank
+Afghanistan,Asia,Low,SA,0.462,62.9,10.7,2.5,"1,335",2
+Albania,Europe,Medium,SSA,0.789,76.8,14.5,10.1,"15,293",7
+Algeria,Africa,High,ECA,0.745,77.1,15.5,7,"10,978",13
+Andorra,Europe,Very High,,0.884,83.6,12.8,11.6,"54,233",-15
+Angola,Africa,Very High,AS,0.591,61.9,12.2,5.8,"5,328",-11
+Antigua and Barbuda,North America,Very High,LAC,0.826,79.2,15.5,10.5,"18,784",18
+Argentina,South America,High,ECA,0.849,76.1,19,11.1,"22,048",17
+Armenia,Asia,High,LAC,0.786,73.4,14.4,11.3,"15,388",4
+Australia,Australia,Very High,,0.946,83.6,21.1,12.7,"49,257",14
+Austria,Europe,Very High,,0.926,82.4,16.4,12.3,"56,530",-5
+Azerbaijan,Asia,High,ECA,0.76,73.5,12.7,10.6,"15,018",-7
+Bahamas,North America,Low,SSA,0.82,74.4,11.9,12.7,"32,535",-9
+Bahrain,Asia,Very High,,0.888,79.2,16.3,11,"48,731",-9
+Bangladesh,Asia,Low,SSA,0.67,73.7,11.9,7.4,"6,511",2
+Barbados,North America,Low,SSA,0.809,77.7,16.5,9.9,"14,810",24
+Belarus,Europe,Medium,SA,0.801,73.2,14,12.2,"18,425",5
+Belgium,Europe,High,,0.942,82.3,18.9,12.5,"53,644",9
+Belize,North America,Very High,AS,0.7,71,12.4,8.8,"9,242",-3
+Benin,Africa,Very High,LAC,0.504,60,10.3,3.1,"3,406",-14
+Bhutan,Asia,High,ECA,0.681,72.2,13.1,5.8,"10,625",-15
+Bolivia,South America,Very High,ECA,0.698,64.9,15,9.8,"7,988",3
+Bosnia and Herzegovina,Europe,Medium,LAC,0.779,75.3,13.3,10.5,"16,571",-3
+Botswana,Africa,Medium,LAC,0.708,65.9,11.4,10.4,"14,842",-29
+Brazil,South America,High,LAC,0.76,73.4,15.6,8.3,"14,616",0
+Brunei,Asia,High,LAC,0.823,74.6,13.7,9.2,"59,246",-43
+Bulgaria,Europe,Very High,EAP,0.799,71.5,13.9,11.4,"25,921",-12
+Burkina Faso,Africa,Medium,SA,0.438,59.8,8.1,2.3,"2,037",-9
+Burundi,Africa,Medium,SSA,0.42,62,10,3.3,712,5
+Cabo Verde,Africa,Low,SSA,0.661,74.7,11.5,6.1,"7,601",-4
+Cambodia,Asia,Very High,,0.6,69.9,11.6,5.2,"4,291",0
+Cameroon,Africa,Very High,,0.587,61,13.4,6.5,"3,681",3
+Canada,North America,Very High,LAC,0.935,82.8,16,13.9,"48,444",8
+Central African Rep.,Africa,High,EAP,0.387,54.5,7.3,4,869,0
+Chad,Africa,Medium,SSA,0.394,53,8.2,2.3,"1,389",-6
+Chile,South America,Medium,SSA,0.86,79.5,16.8,11.1,"24,431",15
+China,Asia,Low,SSA,0.788,78.6,15.2,8.1,"18,025",0
+Colombia,South America,Medium,SSA,0.758,73.7,14.4,8.9,"15,014",-8
+Comoros,Africa,High,LAC,0.586,63.7,13,6.2,"3,261",8
+Dem. Rep. Congo,Africa,Medium,SSA,0.593,63.1,12.4,8.3,"2,903",14
+Congo,Africa,Medium,SSA,0.481,59.7,9.6,7.2,"1,080",9
+Costa Rica,North America,Very High,LAC,0.806,77.3,16.1,8.8,"20,248",2
+Cote d'Ivoire,Africa,High,LAC,0.534,58.9,10.1,4.2,"5,376",-30
+Croatia,Europe,Very High,,0.878,79.2,15.6,12.3,"34,324",5
+Cuba,North America,Very High,,0.764,78.2,14.5,10.5,"7,953",40
+Cyprus,Asia,Very High,,0.907,81.9,16.2,12.4,"40,137",7
+Czechia,Europe,Low,AS,0.895,78.1,16.3,12.9,"39,945",6
+Denmark,Europe,High,LAC,0.952,81.9,18.8,13,"62,019",6
+Djibouti,Africa,Very High,,0.515,62.9,8,3.9,"4,875",-29
+Dominica,North America,High,LAC,0.74,73,13.6,9.2,"12,468",-1
+Dominican Rep.,North America,High,AS,0.766,74.2,13.6,9.2,"18,653",-9
+Ecuador,South America,High,LAC,0.765,77.9,14.9,9,"10,693",25
+Egypt,Africa,High,AS,0.728,70.2,12.9,9.8,"12,361",-8
+El Salvador,North America,Low,SSA,0.674,71.5,11.9,7.2,"8,886",-7
+Eq. Guinea,Africa,Very High,,0.65,61.2,12.1,8.3,"10,663",-24
+Eritrea,Africa,Very High,,0.493,66.6,7.3,5.1,"1,957",2
+Estonia,Europe,Low,SSA,0.899,79.2,15.9,13.5,"37,152",9
+eSwatini,Africa,Very High,,0.61,56.4,14.9,5.7,"8,392",-21
+Ethiopia,Africa,High,EAP,0.492,65.6,9.9,2.4,"2,369",-8
+Fiji,Australia,Very High,,0.729,68.3,13.8,10.4,"11,234",0
+Finland,Europe,Medium,EAP,0.942,82.4,19.2,12.9,"49,522",11
+France,Europe,High,SSA,0.91,83.2,16,11.7,"47,379",-1
+Gabon,Africa,Very High,,0.693,65.7,12.4,9.6,"11,194",-18
+Gambia,Africa,Very High,ECA,0.495,62.9,9,4.5,"2,090",-1
+Georgia,Asia,Medium,SSA,0.814,71.6,16.7,12.7,"15,952",19
+Germany,Europe,Low,SSA,0.95,81,17.3,14.3,"55,340",11
+Ghana,Africa,Low,SSA,0.602,63.9,11.6,6.4,"5,380",-10
+Greece,Europe,Low,SSA,0.893,80.6,20,11.4,"31,382",20
+Grenada,North America,Medium,SSA,0.793,75.3,16.6,9.9,"13,593",18
+Guatemala,North America,Very High,,0.629,68.7,10.8,5.7,"8,996",-17
+Guinea,Africa,High,LAC,0.471,59,10.2,2.4,"2,404",-14
+Guinea-Bissau,Africa,Medium,LAC,0.483,59.9,10.5,3.7,"1,880",-1
+Guyana,South America,High,LAC,0.742,66,13,8.6,"35,783",-54
+Haiti,North America,Very High,,0.552,63.7,11.1,5.6,"2,802",6
+Honduras,North America,Medium,LAC,0.624,70.7,10,7.3,"5,272",2
+"Hong Kong, China (SAR)",Asia,Very High,,0.956,84.3,17.8,12.3,"62,486",6
+Hungary,Europe,Low,LAC,0.851,75,15.1,12.2,"34,196",-2
+Iceland,Europe,Very High,,0.959,82.8,19.1,13.8,"54,688",16
+India,Asia,High,EAP,0.644,67.7,12.6,6.6,"6,951",-6
+Indonesia,Asia,Medium,SA,0.713,68.3,14,8.6,"12,046",-12
+Iran,Asia,Very High,,0.78,74.6,14.1,10.7,"14,770",10
+Iraq,Asia,High,SA,0.673,71.3,12.2,6.8,"9,092",-11
+Ireland,Europe,Medium,AS,0.95,82.7,19.1,11.7,"87,468",-3
+Israel,Asia,Very High,,0.915,82.6,15,13.4,"43,588",9
+Italy,Europe,Very High,,0.906,84.1,16.7,10.7,"44,284",1
+Jamaica,North America,Very High,,0.706,70.6,12.5,9.2,"9,695",-2
+Japan,Asia,High,LAC,0.92,84.8,15.5,12.7,"43,644",9
+Jordan,Asia,High,AS,0.736,74.2,12.6,10.4,"9,295",15
+Kazakhstan,Asia,Very High,,0.802,69.5,14.8,12.4,"22,587",-6
+Kenya,Africa,Very High,ECA,0.601,62.1,11.4,7.7,"4,808",-3
+Kiribati,Australia,Medium,SSA,0.628,67.7,11.8,9.1,"3,440",21
+South Korea,Asia,Medium,ECA,0.929,84,16.5,12.6,"46,026",10
+Kuwait,Asia,Medium,EAP,0.847,80.3,15.7,7.4,"56,729",-33
+Kyrgyzstan,Asia,Medium,EAP,0.701,70.5,13,12,"4,782",28
+Laos,Asia,High,LAC,0.62,69,10.2,5.9,"7,745",-13
+Latvia,Europe,Very High,,0.879,75.9,16.6,13.3,"32,083",13
+Lebanon,Asia,Very High,AS,0.723,74.4,12.1,8.6,"12,313",-11
+Lesotho,Africa,Medium,EAP,0.521,53,11.1,7.5,"2,709",-3
+Liberia,Africa,High,AS,0.487,61.1,10.5,5.3,"1,330",8
+Libya,Africa,Low,SSA,0.746,72.2,14,7.8,"19,752",-25
+Liechtenstein,Europe,High,AS,0.942,84.7,15.5,12.4,"146,673",-11
+Lithuania,Europe,High,LAC,0.879,74.3,16.4,13.5,"38,131",2
+Luxembourg,Europe,Very High,,0.927,82.6,14.2,13,"78,554",-15
+Madagascar,Africa,High,SA,0.487,65.2,9.2,4.6,"1,464",4
+Malawi,Africa,Low,SSA,0.508,62.9,11.5,5.2,"1,432",10
+Malaysia,Asia,Very High,,0.807,76.3,12.9,10.7,"27,295",-7
+Maldives,Asia,Very High,,0.762,80.8,12.2,7.8,"18,847",-16
+Mali,Africa,Very High,,0.41,59.4,7,1.6,"2,044",-13
+Malta,Europe,Medium,AS,0.915,83.7,15.9,12.2,"44,464",5
+Marshall Islands,Australia,,,0.731,65.1,16.4,12.8,"6,855",28
+Mauritania,Africa,High,ECA,0.54,64.7,8.1,4.8,"5,344",-26
+Mauritius,Africa,Low,SSA,0.796,74,14.6,10,"23,252",-12
+Mexico,North America,High,SA,0.781,74.8,14.5,9.2,"19,138",-7
+Micronesia,Australia,High,LAC,0.634,70.9,12.6,7.3,"3,709",18
+Moldova,Europe,Medium,EAP,0.763,68.6,14.9,11.8,"12,964",8
+Mongolia,Asia,High,ECA,0.741,72.7,14.5,9.4,"10,351",15
+Montenegro,Europe,Low,SSA,0.844,76.8,15.1,12.6,"22,513",12
+Morocco,Africa,Very High,,0.698,75,14.6,6.1,"7,955",4
+Mozambique,Africa,Medium,EAP,0.461,59.6,10.7,3.9,"1,219",4
+Myanmar,Asia,Very High,ECA,0.608,67.3,12.1,6.5,"4,038",6
+Namibia,Africa,High,EAP,0.61,58.1,11.8,7.2,"9,200",-26
+Nauru,Australia,Low,SSA,0.696,64,12.6,9.2,"14,939",-38
+Nepal,Asia,Medium,SSA,0.601,70.5,12.6,4.5,"4,026",5
+Netherlands,Europe,Very High,SSA,0.946,82.5,18.6,12.6,"57,278",4
+New Zealand,Australia,Low,SSA,0.939,83,19.7,12.9,"43,665",16
+Nicaragua,North America,Very High,EAP,0.669,74.6,12.6,7.3,"5,427",4
+Niger,Africa,Medium,SSA,0.394,62.1,7.2,1.3,"1,283",-3
+Nigeria,Africa,Low,SSA,0.548,53.6,10.5,7.6,"4,755",-15
+North Macedonia,Europe,Low,SSA,0.765,73.9,13,10.2,"16,396",-5
+Norway,Europe,Medium,LAC,0.966,83.4,18.6,13.1,"69,190",6
+Oman,Asia,Very High,,0.819,73.9,13,11.9,"32,967",-13
+Pakistan,Asia,Very High,,0.54,66.4,7.9,4.4,"5,374",-27
+Palau,Australia,Medium,SA,0.797,65.4,17.2,13,"19,344",-2
+Palestine,Asia,,EAP,0.716,73.4,13.2,9.9,"6,936",18
+Panama,North America,Very High,,0.82,76.8,13.2,10.7,"32,029",-6
+Papua New Guinea,Australia,Very High,AS,0.568,66,11.1,4.9,"3,710",-2
+Paraguay,South America,Low,SA,0.731,70.5,13.9,8.9,"13,161",-9
+Peru,South America,Very High,LAC,0.762,73.4,14.8,10,"11,916",14
+Philippines,Asia,High,LAC,0.71,72.2,12.8,9,"9,059",5
+Poland,Europe,Medium,EAP,0.881,77,15.9,13.2,"35,151",7
+Portugal,Europe,High,EAP,0.874,82.2,16.8,9.6,"35,315",0
+Qatar,Asia,Medium,EAP,0.875,81.6,13.3,10.1,"95,944",-38
+Romania,Europe,Very High,,0.827,74.1,14.5,11.4,"31,641",-1
+Russia,Europe,,EAP,0.821,70.1,15.7,12.4,"26,992",1
+Rwanda,Africa,Very High,,0.548,67.1,11.4,4.9,"2,317",8
+Saint Kitts and Nevis,North America,High,LAC,0.838,72,18.4,10.8,"28,442",3
+Saint Lucia,North America,High,AS,0.725,71.3,12.7,8.6,"14,778",-21
+Saint Vincent and the Grenadines,North America,Very High,AS,0.772,69,16.3,11,"14,049",9
+Samoa,Australia,Very High,,0.702,72.6,12.4,11.4,"4,970",25
+San Marino,Europe,Very High,,0.867,83.4,12.4,10.5,"57,687",-30
+Sao Tome and Principe,Africa,Low,SSA,0.613,68.8,12.7,5.9,"4,054",8
+Saudi Arabia,Asia,Very High,AS,0.875,77.9,15.2,11.3,"50,620",-18
+Senegal,Africa,Low,AS,0.517,67.9,9.1,2.9,"3,464",-12
+Serbia,Europe,Low,SSA,0.805,74.1,14.5,11.5,"19,494",3
+Seychelles,Africa,Very High,EAP,0.802,71.7,13.9,11.2,"28,386",-12
+Sierra Leone,Africa,Medium,EAP,0.458,60.4,9,3.5,"1,613",-4
+Singapore,Asia,Low,SSA,0.949,84.1,16.9,11.9,"88,761",-6
+Slovakia,Europe,Medium,LAC,0.855,75.3,14.7,13,"32,171",4
+Slovenia,Europe,Very High,,0.926,82.1,17.4,12.9,"41,587",13
+Solomon Islands,Australia,,AS,0.562,70.7,10.3,5.9,"2,273",14
+Somalia,Africa,Very High,ECA,0.38,56.1,7.6,1.9,"1,072",-3
+South Africa,Africa,Low,SSA,0.717,61.5,14.3,11.6,"13,186",-18
+S. Sudan,Africa,Medium,SSA,0.381,55.6,5.6,5.7,691,1
+Spain,Europe,High,LAC,0.911,83.9,17.8,10.6,"40,043",10
+Sri Lanka,Asia,Very High,,0.78,76.6,13.6,11.2,"11,899",24
+Sudan,Africa,Very High,,0.516,65.6,8.5,3.9,"3,515",-14
+Suriname,South America,Very High,,0.69,70.3,11,8.4,"12,310",-25
+Sweden,Europe,Medium,SSA,0.952,83.5,19,12.7,"56,996",10
+Switzerland,Europe,High,SSA,0.967,84.3,16.6,13.9,"69,433",6
+Syria,Asia,Medium,AS,0.557,72.3,7.4,5.7,"3,594",-2
+Tajikistan,Asia,Low,SSA,0.679,71.3,10.9,11.3,"4,807",18
+Tanzania,Africa,Low,SSA,0.532,66.8,8.6,5.6,"2,578",-1
+Thailand,Asia,Very High,EAP,0.803,79.7,15.6,8.8,"16,887",10
+Timor-Leste,Asia,Medium,ECA,0.566,69.1,13.2,6,"1,629",24
+Togo,Africa,High,ECA,0.547,61.6,13,5.6,"2,214",9
+Tonga,Australia,Medium,EAP,0.739,71.3,16.3,10.9,"6,360",34
+Trinidad and Tobago,North America,High,EAP,0.814,74.7,14.1,11.7,"22,473",3
+Tunisia,Africa,Very High,LAC,0.732,74.3,14.6,8,"10,297",11
+Turkey,Asia,High,AS,0.855,78.5,19.7,8.8,"32,834",2
+Turkmenistan,Asia,Very High,ECA,0.744,69.4,13.2,11.1,"12,860",1
+Tuvalu,Australia,Medium,EAP,0.653,64.9,12.1,10.6,"4,754",15
+Uganda,Africa,Low,SSA,0.55,63.6,11.5,6.2,"2,241",12
+Ukraine,Europe,Low,SSA,0.734,68.6,13.3,11.1,"11,416",3
+United Arab Emirates,Asia,High,ECA,0.937,79.2,17.2,12.8,"74,104",-11
+United Kingdom,Europe,Very High,LAC,0.94,82.2,17.6,13.4,"46,624",13
+United States of America,North America,Very High,,0.927,78.2,16.4,13.6,"65,565",-11
+Uruguay,South America,High,ECA,0.83,78,17.4,9.1,"22,207",12
+Uzbekistan,Asia,High,LAC,0.727,71.7,12,11.9,"8,056",16
+Vanuatu,Australia,Medium,LAC,0.614,70.5,11.8,7.2,"3,244",21
+Venezuela,South America,High,EAP,0.699,71.1,13.5,9.6,"6,184",14
+Vietnam,Asia,Medium,EAP,0.726,74.6,13.1,8.5,"10,814",0
+Yemen,Asia,High,EAP,0.424,63.7,7.9,2.8,"1,106",2
+Zambia,Africa,Low,AS,0.569,61.8,11,7.3,"3,157",9
+Zimbabwe,Africa,High,SSA,0.55,59.4,11,8.8,"2,079",15
+Falkland Is.,,Medium,SSA,0,,,,,
+Fr. S. Antarctic Lands,,Medium,SSA,0,,,,,
+Greenland,,,,0,,,,,
+Kosovo,,,,0,,,,,
+New Caledonia,,,,0,,,,,
+North Korea,,,,0,,,,,
+Puerto Rico,,,,0,,,,,
+Somaliland,,,,0,,,,,
+Antarctica,,,,0,,,,,
+Antarctic Lands,,,,0,,,,,
+Côte d'Ivoire,,,,0,,,,,
+Republic of Cote D'Ivoire,,,,0,,,,,
+Cote D'ivoire,,,,0,,,,,

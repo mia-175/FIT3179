@@ -1,60 +1,19 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 245,
+  "width": 280,
   "height": 300,
   "title": {
     "text": "Health Dimension",
     "fontSize": 20 
   },
   "data": {
-    "values": [
-      {"Country": "Hong Kong", "Life expectancy": 88.3257, "Gender": "Female"},
-      {"Country": "Hong Kong", "Life expectancy": 82.6613, "Gender": "Male"},
-      {"Country": "Australia", "Life expectancy": 85.8396, "Gender": "Female"},
-      {"Country": "Australia", "Life expectancy": 83.1718, "Gender": "Male"},
-      {"Country": "C. African Republic", "Life expectancy": 56.3035, "Gender": "Female"},
-      {"Country": "C. African Republic", "Life expectancy": 51.6455, "Gender": "Male"},
-      {"Country": "Chad", "Life expectancy": 54.2828, "Gender": "Female"},
-      {"Country": "Chad", "Life expectancy": 50.8449, "Gender": "Male"},
-      {"Country": "Cote d'Ivoire", "Life expectancy": 59.9409, "Gender": "Female"},
-      {"Country": "Cote d'Ivoire", "Life expectancy": 57.4001, "Gender": "Male"},
-      {"Country": "Eswatini", "Life expectancy": 61.2485, "Gender": "Female"},
-      {"Country": "Eswatini", "Life expectancy": 53.366, "Gender": "Male"},
-      {"Country": "Guinea", "Life expectancy": 60.0985, "Gender": "Female"},
-      {"Country": "Guinea", "Life expectancy": 57.595, "Gender": "Male"},
-      {"Country": "Italy", "Life expectancy": 85.0955, "Gender": "Female"},
-      {"Country": "Italy", "Life expectancy": 80.5189, "Gender": "Male"},
-      {"Country": "Japan", "Life expectancy": 87.7313, "Gender": "Female"},
-      {"Country": "Japan", "Life expectancy": 81.8018, "Gender": "Male"},
-      {"Country": "Korea, South", "Life expectancy": 86.7603, "Gender": "Female"},
-      {"Country": "Korea, South", "Life expectancy": 80.3864, "Gender": "Male"},
-      {"Country": "Lesotho", "Life expectancy": 55.9266, "Gender": "Female"},
-      {"Country": "Lesotho", "Life expectancy": 50.3736, "Gender": "Male"},
-      {"Country": "Liechtenstein", "Life expectancy": 85.35, "Gender": "Female"},
-      {"Country": "Liechtenstein", "Life expectancy": 81.101, "Gender": "Male"},
-      {"Country": "Malta", "Life expectancy": 86.1085, "Gender": "Female"},
-      {"Country": "Malta", "Life expectancy": 81.4414, "Gender": "Male"},
-      {"Country": "Namibia", "Life expectancy": 62.9849, "Gender": "Female"},
-      {"Country": "Namibia", "Life expectancy": 55.7206, "Gender": "Male"},
-      {"Country": "Nigeria", "Life expectancy": 53.0701, "Gender": "Female"},
-      {"Country": "Nigeria", "Life expectancy": 52.2846, "Gender": "Male"},
-      {"Country": "Singapore", "Life expectancy": 84.9268, "Gender": "Female"},
-      {"Country": "Singapore", "Life expectancy": 80.6357, "Gender": "Male"},
-      {"Country": "Somalia", "Life expectancy": 57.414, "Gender": "Female"},
-      {"Country": "Somalia", "Life expectancy": 53.2459, "Gender": "Male"},
-      {"Country": "South Sudan", "Life expectancy": 56.4723, "Gender": "Female"},
-      {"Country": "South Sudan", "Life expectancy": 53.4286, "Gender": "Male"},
-      {"Country": "Spain", "Life expectancy": 85.7735, "Gender": "Female"},
-      {"Country": "Spain", "Life expectancy": 80.2091, "Gender": "Male"},
-      {"Country": "Switzerland", "Life expectancy": 85.8959, "Gender": "Female"},
-      {"Country": "Switzerland", "Life expectancy": 81.9952, "Gender": "Male"}
-    ]
+    "url": "https://raw.githubusercontent.com/mia-175/FIT3179/main/Life expectancy.csv"
   },
   "encoding": {
     "x": {
       "field": "Life expectancy",
       "type": "quantitative",
-      "title": "Life Expectancy (by gender)",
+      "title": "Life Expectancy",
       "scale": {
         "domain": [45, 90] 
       }
@@ -62,7 +21,7 @@
     "y": {
       "field": "Country",
       "type": "nominal",
-      "title": "Country",
+      "title": null,
       "axis": {
         "offset": 5,
         "ticks": false,
@@ -72,8 +31,7 @@
       "sort": {
         "field": "Life expectancy",
         "order": "descending",
-        "op": "average",
-        "aggregate": "mean"
+        "op": "sum"
       }
     },
     "color": {
@@ -83,9 +41,12 @@
         "domain": ["Female", "Male"],
         "range": ["#e6959c", "#911a24"]  
       },
-      "title": "Gender",
       "legend": {
-        "orient": "bottom"
+        "title": null,
+        "orient": "bottom",
+        "direction": "horizontal",
+        "columns": 4, 
+        "symbolSize": 100
       }
     }
   },
@@ -116,8 +77,15 @@
           "title": "Gender"
         },
         "size": {"value": 100},
-        "opacity": {"value": 1}
+        "opacity": {"value": 1},
+        "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country"},
+          {"field": "Life expectancy", "type": "quantitative", "title": "Life Expectancy"}
+        ]
       }
     }
-  ]
+  ],
+  "config": {
+    "background": "#f2f2f2"
+  }
 }
