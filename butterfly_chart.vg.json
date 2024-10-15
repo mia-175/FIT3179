@@ -28,7 +28,11 @@
         "op": "sum",
         "order": "descending"
       },
-      "axis": {"title": null}
+      "axis": {
+        "title": null,
+        "ticks": false,
+        "domainColor": "#d3d3d3"
+      }
     },
     "x": {
       "field": "AdjustedYears",

@@ -13,7 +13,6 @@
     "x": {
       "field": "Life expectancy",
       "type": "quantitative",
-      "title": "Life Expectancy",
       "scale": {
         "domain": [45, 90] 
       }
@@ -32,21 +31,6 @@
         "field": "Life expectancy",
         "order": "descending",
         "op": "sum"
-      }
-    },
-    "color": {
-      "field": "Gender",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Female", "Male"],
-        "range": ["#e6959c", "#911a24"]  
-      },
-      "legend": {
-        "title": null,
-        "orient": "bottom",
-        "direction": "horizontal",
-        "columns": 4, 
-        "symbolSize": 100
       }
     }
   },
@@ -70,17 +54,18 @@
         "color": {
           "field": "Gender",
           "type": "nominal",
-          "scale": {
-            "scheme": "yellowgreenblue",
-            "reverse": true
-          },
-          "title": "Gender"
+          "scale": {"scheme": "yellowgreenblue"},
+          "legend": {
+            "title": null,
+            "orient": "bottom",
+            "direction": "horizontal"
+          }
         },
         "size": {"value": 100},
-        "opacity": {"value": 1},
+        "opacity": {"value": 50},
         "tooltip": [
           {"field": "Country", "type": "nominal", "title": "Country"},
-          {"field": "Life expectancy", "type": "quantitative", "title": "Life Expectancy"}
+          {"field": "Life expectancy", "type": "quantitative", "title": "Life Expectancy (years)"}
         ]
       }
     }

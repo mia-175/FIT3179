@@ -35,7 +35,6 @@
   "scales": [
     {
       "name": "color",
-      "type": "linear",
       "domain": {"data": "tree", "field": "GNI per capita"},
       "range": {"scheme": "greenblue"}
     }
@@ -47,11 +46,24 @@
       "title": "GNI per capita",
       "orient": "bottom",
       "direction": "horizontal",
-      "gradientLength": 270
+      "gradientLength": 280
     }
   ],
 
   "marks": [
+    {
+      "type": "rect",
+      "encode": {
+        "enter": {
+          "x": {"value": 0},
+          "y": {"value": 0},
+          "width": {"signal": "width"},
+          "height": {"signal": "height"},
+          "stroke": {"value": "grey"},  
+          "strokeWidth": {"value": 2}   
+        }
+      }
+    },
     {
       "type": "rect",
       "from": {"data": "tree"},
@@ -84,7 +96,7 @@
           "align": {"value": "center"},
           "baseline": {"value": "middle"},
           "text": {
-            "signal": "datum.Country === 'Liechtenstein' | datum.Country === 'Qatar' | datum.Country === 'Qatar' | datum.Country === 'Singapore' | datum.Country === 'Ireland' | datum.Country === 'Luxembourg' | datum.Country === 'Emirates' | datum.Country === 'Switzerland' | datum.Country === 'Norway' | datum.Country === 'United States of America' | datum.Country === 'Hong Kong' ? datum.Country : ''"
+            "signal": "datum.Country === 'Liechtenstein' | datum.Country === 'Qatar' | datum.Country === 'Singapore' | datum.Country === 'Ireland' | datum.Country === 'Luxembourg' | datum.Country === 'Emirates' | datum.Country === 'Switzerland' | datum.Country === 'Norway' | datum.Country === 'United States of America' | datum.Country === 'Hong Kong' ? datum.Country : ''"
           },
           "fill": {"value": "white"}
         }

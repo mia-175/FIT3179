@@ -14,7 +14,7 @@
         "input": "select",
         "options": [null, "Very High", "High", "Medium", "Low"],
         "labels": ["Show All", "Very High", "High", "Medium", "Low"],
-        "name": "Human Development Category: "
+        "name": "HDI Category: "
       }
     }
   ],
@@ -40,10 +40,6 @@
           }
         },
         {
-          "calculate": "datum.HDI != null ? datum.HDI : 'N/A'",
-          "as": "HDI_display"
-        },
-        {
           "filter": "HDI_Category_Selection == null || datum.hdicode == HDI_Category_Selection"
         }
       ],
@@ -52,7 +48,7 @@
         "color": {
           "field": "HDI",
           "type": "quantitative",
-          "scale": {"type": "linear", "scheme": "greenblue"},
+          "scale": {"scheme": "greenblue"},
           "legend": {
             "orient": "right",
             "direction": "vertical",
